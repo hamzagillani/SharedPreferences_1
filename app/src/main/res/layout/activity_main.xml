@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark">
+
+
+
+    <EditText
+        android:id="@+id/et_name_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/et_email_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@android:color/black"/>
+
+
+    <EditText
+        android:id="@+id/et_mobilenumber_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/black"
+        android:hint="Mobile Number"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/bt_save_MA_id"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:text="Show Saved Data"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_name_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_email_MA_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:hint="Email"
+        />
+    <TextView
+        android:id="@+id/tv_mobilenumber_MA_id"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mobile Number"
+        />
+<Button
+    android:text="Next Activity"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@android:color/holo_blue_light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginTop="20dp"
+    android:onClick="next_Activity"/>
+
+
+
+</LinearLayout>
